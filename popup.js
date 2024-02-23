@@ -1,4 +1,5 @@
 function setup() {
+  console.log()
   document.querySelectorAll("video").forEach(video => video.controls = true)
 }
 
